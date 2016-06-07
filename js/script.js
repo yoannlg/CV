@@ -26,8 +26,8 @@ $(document).ready(function() {
         loopHorizontal: true,
         // continuousVertical: false,
         // normalScrollElements: '#element1, .element2',
-        scrollOverflow: true,
-        scrollOverflowOptions: null,
+        // scrollOverflow: true,
+        // scrollOverflowOptions: null,
         // touchSensitivity: 15,
         // normalScrollElementTouchThreshold: 5,
 
