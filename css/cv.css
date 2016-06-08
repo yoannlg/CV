@@ -1,8 +1,9 @@
 html{
-	border:2px dashed white;
+	/*border:2px dashed white;*/
 }
 body{
-	/*border: 2px dashed white;*/
+	min-width: 900px;
+	border: 2px dashed white;
 	background-color:#1F8E99; 
 	font-family: 'Merriweather', serif;
 
