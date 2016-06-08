@@ -1,5 +1,6 @@
 
 body{
+	border: 2px dashed white;
 	background-color:#1F8E99; 
 	font-family: 'Merriweather', serif;
 
@@ -19,7 +20,7 @@ a{
 
 hr{
 	width: 100%;
-	margin-left: 0;
+	margin-left: 30px;
 }
 
 .container{
@@ -98,8 +99,7 @@ aside{
 	align-items: center;
 	min-width: 250px;
 	max-width: 250px;
-
-    margin: 50px 10px;
+    margin: 150px 10px 0 10px;
     border-radius: 5% 5% 0 0;
     font-size: 14px;
 	color: #1F8E99;
@@ -170,7 +170,7 @@ border-radius: 50%;
 
 /*PARTIE CONTACT*/
 .contact{
-	margin-top: -80px;
+	margin-top: -10px;
 }
 .inside-contact{
 	margin-bottom: 10px;
@@ -207,6 +207,9 @@ border-radius: 50%;
 	width: 100%;
 	margin: 0 auto;
 }
+.competence li{
+	margin-top: 30px;
+}
 
 /*PARTIE BAS ASIDE*/
 .bas-aside{
@@ -239,7 +242,7 @@ border-radius: 50%;
 
 
 
-			/*PARTIE GAUCHE*/
+			/*PARTIE LEFT*/
 
 
 .left{
@@ -252,7 +255,9 @@ border-radius: 50%;
 	color: white;
 	margin-right: 15px;
 }
-.left ul{
+.left ul>p{
+	font-family:'Merriweather', serif;
+	font-size: 18px;
 	padding: 0px;
 }
 
@@ -289,9 +294,7 @@ border-radius: 50%;
 
 
 .loisir{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	justify-content: space-around;
 	margin-left: 20px;
 }
 

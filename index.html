@@ -7,14 +7,30 @@
 
 
 
+
+
+
+
+
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 	<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
-	<script src="js/fullPage/vendors/jquery.easings.min.js"></script>
+	<script src="vendors/jquery.easings.min.js"></script>
+
+
 	<!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
-	<script type="text/javascript" src="js/fullPage/vendors/scrolloverflow.min.js"></script>
+	<script type="text/javascript" src="js/fullPage/vendors/fullPage/scrolloverflow.min.js"></script>
+
 	<script type="text/javascript" src="js/fullPage/jquery.fullPage.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+
+
+
+
+
+
 
 
 
@@ -32,271 +48,283 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <body>
-<!-- EN TETE CV -->
-<div id ="fullpage">
-	<div class ="section one">
 
-	</div>
-
-	<div class ="section two">
-		<nav>
-			<h1>CV</h1>
-			<div class ="arrow-up"></div>
-		</nav>	
+	<!-- <div id="fullpage"> -->
 
 
+								<!-- EN TETE CV -->
+<!-- 		<div class="section one">Some section</div>
+		<div class="section two"> -->
 
+			<nav>
+				<h1>CV</h1>
+				<div class="arrow-up"></div>
+			</nav>	
 
 
 
 
+								<!-- PARTI GAUCHE -->
 
+			<div class="container">
 
-
-		<!-- PARTI GAUCHE -->
-
-		<div class ="container">
-
-			<div class ="left">
-				<div class ="prez">
-					<h1>Yoann Le Gouguec</h1>
-					<h4>Dev front junior-fullstack(si si ta vu) </h4>
-					<p>Age : 29 ans</p>
-				</div>
-
-				<!-- PARTIE FORMATION -->
-
-				<h2><i class ="fa fa-book fa-lg" aria-hidden="true"></i>Formation developpe bon sang d'bois</h2>
-				<hr>
-				<div>
-
-					<div class ="flex">
-						<div class ="annee"><p>2015</p></div>
-						<div class ="contenu">
-							<ul>Formation Développeur informatique à SIMPLON:
-								<li>Formation intensive et immersive au dev web front end</li>
-								<li>pedagogie par projet</li>
-								<li>pair programming</li>
-								<li>learning by doing/learning by teatching</li>
-								<li>tdd</li>
-							</ul>
+					<div class="left">
+						<div class="prez">
+							<h1>Yoann Le Gouguec</h1>
+							<h4>Dev front junior</h4>
+							<p>Age : 29 ans</p>
 						</div>
-					</div>
-
-					<div class ="flex">
-						<div class ="annee"><p>2014</p></div>
-						<div class ="contenu">
-							<p>Ecole 42: </p>
-						</div>
-					</div>
-
-					<div class="flex">
-						<div class="annee"><p>2008</p></div>
-						<div class="contenu">
-							<p>Certificat de qualification professionnelle d'agent de prévention et de sécurité (CQP-APS)</p>
-						</div>
-					</div>
-
-					<div class="flex">
-						<div class="annee"><p>2004-2005</p></div>
-						<div class="contenu">
-							<p>Brevet d’Enseignement professionnel (BEP)</p>
-						</div>
-					</div>
-				</div>
 
 
 
 
 
-				<!-- PARTIE XP PRO -->
-
-				<h2><i class="fa fa-briefcase fa-lg" aria-hidden="true"></i>Xp pro</h2>
-				<hr>
-				<div>
-
-					<div class="flex">
-						<div class="annee"><p>Juin 2008 à 2012</p></div>
-						<div class="contenu">
-						<p>Agent de Sécurité auprès de la RATP – puis rue de la Paix et de février 2012 l’avenue Georges V</p>
-						</div>
-					</div>
-
-					<div class="flex">
-						<div class="annee"><p>Mai à juin 2006</p></div>
-						<div class="contenu">
-							<p>Stage dans l’entreprise ABAX à Villeneuve-le-Roi (industrie-chimie)</p>
-						</div>
-					</div>
-
-					<div class="flex">
-						<div class="annee"><p>Décembre 2002</p></div>
-						<div class="contenu">
-							<p>Stage dans l’entreprise MICROMANIA à Italie2 Mission : vérification des stocks et vente des produits</p>
-						</div>
-					</div>
-				</div>
 
 
 
 
 
-									<!-- LOISIR -->
+						<!-- PARTIE FORMATION -->
 
-
-				<h2><i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>Loisir</h2>
-				<hr>
-
-				<div class="all">
-					<div class="loisirs">
-						<p>-Sport</p>
-						<p>-Mangas</p>
-						<p>-Série tv</p>
-						<p>-Moto</p>
-						<p>-Jeux vidéo</p>
-						<p>Chasse au pélican de cornouail</p>
-						<p>Plongé sous-marine le pen</p>
-						<p>Ecouter le soleil en regardant de la musique</p>
-					</div>
-				</div>
-
-			</div>
-
-
-
-
-		<!-- PARTIE DROITE -->
-
-			<div class="right">
-				<aside>
-
-					<div class="arrondi">
-					<!-- PHOTO PROFIL -->
-						<img src="yoann.png" alt="" class="trombi">
-					</div>
-
-
-					<!-- PARTIE CONTACT -->
-					<div class="contact">
-						<h2>contact</h2>
+						<h2><i class="fa fa-book fa-lg" aria-hidden="true"></i>Formations</h2>
 						<hr>
-						<div class="inside-contact flex">
-							<i class="fa fa-github fa-2x" aria-hidden="true"></i>
-							<div>
-								<a href="https://github.com/yoannlg">https://github.com/yoannlg</a>
+						<div>
+							<div class="flex">
+								<div class="annee"><p>2015</p></div>
+								<div class="contenu">
+									<ul>Formation Développeur informatique à SIMPLON:
+										<li>Formation intensive et immersive au dev web front end JS avancé et utilisation de framework associé</li>
+										<li>pedagogie par projet</li>
+										<li>pair programming</li>
+										<li>learning by doing/learning by teatching</li>
+										<li>Test unitaire</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="flex">
+								<div class="annee"><p>2008</p></div>
+								<div class="contenu">
+								<p>Certificat de qualification professionnelle d'agent de prévention et de sécurité (CQP-APS)</p>
+								</div>
+							</div>
+
+							<div class="flex">
+								<div class="annee"><p>2004-2005</p></div>
+								<div class="contenu">
+								<p>Brevet d’Enseignement professionnel (BEP)</p>
+								</div>
 							</div>
 						</div>
 
-						<div class="inside-contact">
-							<i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>Shinji51@hotmail.fr
-						</div>
-						<div class="inside-contact">
-							<i class="fa fa-phone fa-2x" aria-hidden="true"></i>06 82 48 78 58
-						</div>
-					</div>
 
-					<!-- PARTIE LANGUAGE -->
-					<div class="language">
-						<h2>Language</h2>
+
+
+
+						<!-- PARTIE XP PRO -->
+
+						<h2><i class="fa fa-briefcase fa-lg" aria-hidden="true"></i>Xp pro</h2>
 						<hr>
-						<ul>HTML/5
-							<li class="flex">
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle"></div>
-							</li>
-						</ul>
-						<ul>CSS/3
-							<li class="flex">
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle"></div>
-							</li>
-						</ul>
+						<div>
 
-						<ul>JS
-							<li class="flex">
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle"></div>
-								<div class="cercle"></div>
-							</li>
-						</ul>
+							<div class="flex">
+								<div class="annee"><p>2016</p></div>
+								<div class="contenu">
+								<ul> <p>Projet Sncf</p>
+									<li>Relation clien</li>
+									<li>Etablissement d'un cahier des charges</li>
+									<li><a href="https://github.com/Nossyra46/art-like">lien : https://github.com/Nossyra46/art-like</a></li>
+								</ul>
 
-						<ul>jquery
-							<li class="flex">
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle"></div>
-								<div class="cercle"></div>
-							</li>
-						</ul>
-						<ul>Angular
-							<li class="flex">
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle"></div>
-								<div class="cercle"></div>
-								<div class="cercle"></div>
-							</li>
-						</ul>
-						<ul>Node
-							<li class="flex">
-								<div class="cercle cercle-plein"></div>
-								<div class="cercle"></div>
-								<div class="cercle"></div>
-								<div class="cercle"></div>
-								<div class="cercle"></div>
-							</li>
-						</ul>
-					</div>
 
-					<div class="competence">
-						<h2>Compétence</h2>
+
+								<ul> <p>Attelier "Hour of Code"</p>
+									<li>Formation et initition au code</li>
+									<li>Outil: Scratch</li>
+								</ul>
+								<ul> <p>Formation au code de cadres d'AXA</p>
+								
+								</ul>
+								
+								</div>
+							</div>
+
+							<div class="flex">
+								<div class="annee"><p>2008 à 2012</p></div>
+								<div class="contenu">
+								<p>Agent de Sécurité auprès de la RATP – puis rue de la Paix et de février 2012 l’avenue Georges V</p>
+								</div>
+							</div>
+
+							<div class="flex">
+								<div class="annee"><p>2006</p></div>
+								<div class="contenu">
+								<p>Stage dans l’entreprise ABAX à Villeneuve-le-Roi (industrie-chimie)</p>
+								</div>
+							</div>
+
+							<div class="flex">
+								<div class="annee"><p>2002</p></div>
+								<div class="contenu">
+								<p>Stage dans l’entreprise MICROMANIA à Italie2 Mission : vérification des stocks et vente des produits</p>
+								</div>
+							</div>
+						</div>
+
+
+
+						<h2><i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>Loisir</h2>
 						<hr>
-						<ul>
-							<li>Travail d'équipe</li>
-							<li>Adaptibilité</li>
-							<li>Autonomie</li>
-							<li>Peut danser la polka</li>
-							<li>S'entraine pour faire un kaméhaméha!!!</li>
-						</ul>
-					</div>
 
-					<div class="bas-aside"></div>
-				</aside>
-			</div>
-		</div>
-	</div>
-	<div class="section three">prout</div>
-</div>
+						<div class="all">
+							<div class="loisir flex">
+								<div class="loisir-gauche">
+									<p>-Sport</p>
+									<p>-Mangas</p>
+									<p>-concert/spectacle</p>
+									
+								</div>
+								<div class="loisir-droit">
+									<p>-Série/films</p>
+									<p>-Moto</p>
+									<p>-Jeux vidéos</p>
+								</div>
+								
+							</div>
+						</div>
+
+					</div><!-- PREZ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<!-- PARTIE DROITE -->
+
+					<div class="right">
+						<aside>
+
+							<div class="arrondi">
+								<!-- PHOTO PROFIL -->
+								<img src="yoann.png" alt="" class="trombi">
+							</div>
+
+
+							<!-- PARTIE CONTACT -->
+							<div class="contact">
+								<h2>contact</h2>
+								<hr>
+								<div class="inside-contact flex">
+								<i class="fa fa-github fa-2x" aria-hidden="true"></i><div><a href="https://github.com/yoannlg">https://github.com/yoannlg</a></div>
+								</div>
+								<div class="inside-contact">
+								<i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>Shinji51@hotmail.fr</div>
+								<div class="inside-contact">
+								<i class="fa fa-phone fa-2x" aria-hidden="true"></i>06 82 48 78 58
+								</div>
+							</div>
+
+							<!-- PARTIE LANGUAGE -->
+							<div class="language">
+								<h2>Language</h2>
+								<hr>
+								<ul>HTML/5
+									<li class="flex">
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle"></div>
+									</li>
+								</ul>
+								<ul>CSS/3
+									<li class="flex">
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle"></div>
+									</li>
+								</ul>
+
+								<ul>JS
+									<li class="flex">
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle"></div>
+									<div class="cercle"></div>
+									</li>
+								</ul>
+
+								<ul>jquery
+									<li class="flex">
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle"></div>
+									<div class="cercle"></div>
+									</li>
+								</ul>
+								<ul>Angular
+									<li class="flex">
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle"></div>
+									<div class="cercle"></div>
+									<div class="cercle"></div>
+									</li>
+								</ul>
+								<ul>Node
+									<li class="flex">
+									<div class="cercle cercle-plein"></div>
+									<div class="cercle"></div>
+									<div class="cercle"></div>
+									<div class="cercle"></div>
+									<div class="cercle"></div>
+									</li>
+								</ul>
+							</div><!-- LANGUAGE -->
+
+							<div class="competence">
+								<h2>Compétence</h2>
+								<hr>
+								<ul>
+									<li>Travail d'équipe</li>
+									<li>Adaptibilité</li>
+									<li>Autonomie</li>
+								</ul>
+							</div>
+
+							<div class="bas-aside"></div>
+						</aside>
+					</div><!-- RIGTH -->
+			</div> <!-- container -->
+		<!-- </div> section two -->
+		<!-- <div class="section three">babar</div>									 -->
+	<!-- </div> fullpage -->
 </body>
 </html>
+
