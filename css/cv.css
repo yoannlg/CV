@@ -34,13 +34,11 @@ hr{
 	justify-content: space-between;
 }
 
-/*.one, .three{
-	border: 2px dashed white;
+.one{
+	color: white;
 }
 .two{
-	border-left:2px dashed white;
-	border-right:2px dashed white;
-}*/
+}
 
 
 
@@ -105,7 +103,7 @@ aside{
 	align-items: center;
 	min-width: 250px;
 	max-width: 250px;
-    margin: 150px 10px 0 10px;
+    margin: 50px 10px 0 10px;
     border-radius: 5% 5% 0 0;
     font-size: 14px;
 	color: #1F8E99;
@@ -133,7 +131,7 @@ aside ul{
 }
 aside hr{
 	width: 80%;
-	margin: 20px auto;
+	margin: 8px auto;
 }
 
 .flex{
@@ -143,7 +141,6 @@ aside hr{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 10px 0;
 }
 
 
@@ -172,7 +169,7 @@ border-radius: 50%;
 
 /*PARTIE CONTACT*/
 .contact{
-	margin-top: -10px;
+	margin-top: -30px;
 }
 .inside-contact{
 	width: 100%;
