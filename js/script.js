@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
 
-        //Navigation
+        // //Navigation
         // menu: '#menu',
         // lockAnchors: false,
         // anchors:['firstPage', 'secondPage'],
@@ -12,31 +12,32 @@ $(document).ready(function() {
         // slidesNavigation: true,
         // slidesNavPosition: 'bottom',
 
-        //Scrolling
+        // //Scrolling
         css3: true,
-        scrollingSpeed: 1000,
-        autoScrolling: 'normal',
-        // fitToSection: true,
-        // fitToSectionDelay: 1000,
+        scrollingSpeed: 1700,
+        autoScrolling: true,
+        fitToSection: true,
+        fitToSectionDelay: 1000,
         // scrollBar: false,
-        // easing: 'easeInOutCubic',
-        // easingcss3: 'ease',
+        easing: 'easeInOutCubic',
+        easingcss3: 'ease',
         // loopBottom: false,
         // loopTop: false,
         // loopHorizontal: true,
         // continuousVertical: false,
-        // normalScrollElements: '#element1, .element2',
-        // scrollOverflow: true,
-        // scrollOverflowOptions: null,
+        normalScrollElements: null,
+        // scrollOverflowHandler: 'iscrollHandler',
+        scrollOverflow: true,
+        scrollOverflowOptions: null,
         // touchSensitivity: 15,
         // normalScrollElementTouchThreshold: 5,
 
-        //Accessibility
+        // //Accessibility
         // keyboardScrolling: true,
         // animateAnchor: true,
         // recordHistory: true,
 
-        //Design
+        // //Design
         // controlArrows: true,
         // verticalCentered: true,
         sectionsColor : ['black', '#1F8E99', 'red'],
@@ -46,18 +47,16 @@ $(document).ready(function() {
         // responsiveWidth: 0,
         // responsiveHeight: 0,
 
-        //Custom selectors
+        // //Custom selectors
         // sectionSelector: '.section',
         // slideSelector: '.slide',
 
-        //events
+        // //events
         // onLeave: function(index, nextIndex, direction){},
         // afterLoad: function(anchorLink, index){},
         // afterRender: function(){},
         // afterResize: function(){},
         // afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         // onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
-
-
     });
 });
