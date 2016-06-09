@@ -44,8 +44,8 @@ $(document).ready(function() {
         // paddingTop: '3em',
         // paddingBottom: '10px',
         // fixedElements: '#header, .footer',
-        responsiveWidth: 1,
-        responsiveHeight: 1,
+        // responsiveWidth: 0,
+        // responsiveHeight: 0,
 
         // //Custom selectors
         // sectionSelector: '.section',
