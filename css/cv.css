@@ -3,7 +3,7 @@ html{
 }
 body{
 	min-width: 830px;
-	min-height: 1000px;
+	min-height: 100vh;
 	border: 2px dashed white;
 	background-color:#1F8E99; 
 	font-family: 'Merriweather', serif;
