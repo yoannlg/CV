@@ -1,9 +1,6 @@
-html{
-	/*border:2px dashed white;*/
-}
+
 body{
-	min-width: 830px;
-	min-height: 2000px;
+	min-width: 330px;
 	border: 2px dashed white;
 	background-color:#1F8E99; 
 	font-family: 'Merriweather', serif;
@@ -40,7 +37,9 @@ hr{
 }
 .two{
 }
+.three{
 
+}
 
 
 /*PARTIE CV*/
@@ -196,10 +195,6 @@ border-radius: 50%;
 	background-color: #1F8E99;
 	border: 1px solid black;
 }
-/*.separation{
-	border-bottom: 2px dashed red;
-}
-*/
 
 
 
@@ -250,7 +245,7 @@ border-radius: 50%;
 
 
 			/*PARTIE LEFT*/
-
+ 
 
 .left{
 	width: 70%;
@@ -262,7 +257,7 @@ border-radius: 50%;
 	color: white;
 	margin-right: 15px;
 }
-.left ul>p{
+.mise-en-avant{
 	font-family:'Merriweather', serif;
 	font-size: 18px;
 	padding: 0px;
@@ -309,3 +304,118 @@ border-radius: 50%;
 	margin-left: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					/*Partie slider*/
+
+.container-slide{
+	display: flex;
+	width: 60%;
+	flex-wrap: wrap;
+	margin: auto;
+	border:2px solid red;
+
+
+}
+
+.projet{
+	height: 200px;
+	min-width: 300px;
+	margin: 10px;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	flex-flow; wrap;
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid blue;
+	flex:1 1 0;
+}
+
+
+.airbnb{
+		background-image: url("../images/airbnb.png");
+
+}
+
+
+
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+
+
+
+
+
+
+/*#one{
+	visibility: hiden;
+}
+*/

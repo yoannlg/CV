@@ -24,7 +24,9 @@
 	<script type="text/javascript" src="js/fullPage/vendors/scrolloverflow.min.js"></script>
 
 	<script type="text/javascript" src="js/fullPage/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/fullpage.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+
 
 
 
@@ -51,11 +53,11 @@
 <body>
 
 
-	<div id="fullpage">
-
+	<!-- <div id="fullpage"> -->
+<!-- 
 		<div class="section one" >Some section</div>
 
-		<div class="section two">
+		<div class="section two"> -->
 
 
 
@@ -79,7 +81,7 @@
 			<div class="container">
 
 					<div class="left">
-						<div class="prez">
+						<div id="one" class="prez">
 							<h1>Yoann Le Gouguec</h1>
 							<h4>Dev front junior</h4>
 							<p>Age : 29 ans</p>
@@ -88,7 +90,7 @@
 
 
 						<!-- PARTIE FORMATION -->
-
+					<div id="three">
 						<h2><i class="fa fa-book fa-lg" aria-hidden="true"></i>Formations</h2>
 						<hr>
 						<div>
@@ -120,12 +122,12 @@
 							</div>
 						</div>
 
-
+					</div>
 
 
 
 						<!-- PARTIE XP PRO -->
-
+					<div id="four">
 						<h2><i class="fa fa-briefcase fa-lg" aria-hidden="true"></i>Xp pro</h2>
 						<hr>
 						<div>
@@ -133,8 +135,8 @@
 							<div class="flex">
 								<div class="annee"><p>2016</p></div>
 								<div class="contenu">
-								<ul> <p>Projet Sncf :</p>
-									 <p>Création site ou appli mobile répondant au besoin du porteur de projet dans un delais de 4 jours.</p>
+								<ul> <p class="mise-en-avant">Projet Sncf :</p>
+									 <p>-Création site / appli mobile répondant au besoin du porteur de projet dans un delais de 4 jours.</p>
 
 									<li>Etablissement d'un cahier des charges</li>
 									<li>Relation client</li>
@@ -144,11 +146,13 @@
 
 
 
-								<ul> <p>Attelier "Hour of Code"</p>
-									<li>Formation et initition au code</li>
-									<li>Outil: Scratch</li>
+								<ul> <p class="mise-en-avant">Attelier "Hour of Code"</p>
+									<li>Formation et initiation au code</li>
+									<li>Techno: JavaScript</li>
+									<li>Outil supplémentaire: Scratch</li>
 								</ul>
-								<ul> <p>Formation au code de cadres d'AXA</p>
+								<ul> <p class="mise-en-avant">Formation au code de cadres d'AXA:</p>
+								<p>-Introduction à la programmation via de petit jeu("minecraft")</p>
 								
 								</ul>
 								
@@ -201,7 +205,7 @@
 
 					</div><!-- PREZ -->
 
-
+				</div>
 
 
 
@@ -237,7 +241,7 @@
 
 					<!-- PARTIE DROITE -->
 
-					<div class="right">
+					<div class="right test" id="two">
 						<aside>
 
 							<div class="arrondi">
@@ -346,8 +350,74 @@
 					</div><!-- RIGTH -->
 			</div> <!-- container -->
 		</div> <!-- section two -->
-		<div class="section three">babar</div>									
-	</div> <!-- fullpage -->
+		<!-- <div class="section three">
+			<div class="slide three">
+				<div class="container-slide">
+					<div class="projet">
+						<img src="http://yoannlg.github.io/airbnb/" alt="">
+					</div>
+					<div class="projet">
+						
+						<div class="skillbar clearfix " data-percent="25%">
+	<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+	<div class="skillbar-bar" style="background: #3498db;"></div>
+	<div class="skill-bar-percent">25%</div>
+</div> 
+
+					</div>
+					<div class="projet">
+						
+						<p>Coucou</p>
+						<div id="one" class="cache" style="display:none;">
+						Je suis cach&eacute; !
+						</div>
+						<p>Coucou encore</p>
+						<div class="cache" style="display:none;">
+						Je suis cach&eacute; moi aussi
+						</div>
+
+					</div>
+					<div class="projet">
+						<span id="texteJQ"></span>
+					</div>
+				</div>
+			</div>
+			
+		</div>	 -->								
+<!-- 	</div> --> <!-- fullpage -->
 </body>
 </html>
 
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <p>Coucou</p>
+<div class="cache" style="display:none;">
+Je suis cach&eacute; !
+</div>
+<p>Coucou encore</p>
+<div class="cache" style="display:none;">
+Je suis cach&eacute; moi aussi
+</div> -->
+ 
+<!-- <script type="text/javascript">
+var delai=1000, //le délai en ms
+lesDiv=[];
+for(var i=0;i<document.getElementsByTagName('div').length;i++){
+    if(document.getElementsByTagName('div')[i].className=='cache'){
+        lesDiv[i]=document.getElementsByTagName('div')[i];
+    }
+}
+for(i=0;i<lesDiv.length;i++){
+    setTimeout((function(arg){return function(){lesDiv[arg].style.display='block';}})(i),delai);
+}
+</script> -->
