@@ -1,6 +1,9 @@
 
+/*html{
+	border: 2px dashed white;
+}*/
 body{
-	min-width: 330px;
+	min-width: 830px;
 	border: 2px dashed white;
 	background-color:#1F8E99; 
 	font-family: 'Merriweather', serif;
@@ -35,7 +38,10 @@ hr{
 .one{
 	color: white;
 }
-.two{
+#two{
+	padding-top: 100px;
+	margin-top: -100px;
+	/*border: 2px solid red;*/
 }
 .three{
 
