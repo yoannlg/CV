@@ -3,11 +3,15 @@
 	border: 2px dashed white;
 }*/
 body{
-	min-width: 830px;
+	max-width: 1500px;
+	min-width: 730px;
 	border: 2px dashed white;
 	background-color:#1F8E99; 
 	font-family: 'Merriweather', serif;
-
+}
+#page{
+	margin: 0;
+	border: none;
 }
 h1{
 	font-family: 'Titillium Web', sans-serif;
