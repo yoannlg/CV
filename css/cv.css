@@ -272,11 +272,12 @@ ul p{
 
 .arrondi{
 width: 100%;
-min-width: 180px;
-height: 250px;
+min-width: 200px;
+height: 260px;
 margin-top: -80px;
 border-radius: 50%;
 background-color: #FFD1AD;
+/*border: 2px solid red;*/
 }
 
 .trombi{
