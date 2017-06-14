@@ -440,7 +440,7 @@ border-radius: 50%;
 	-moz-transition:0.4s linear;
 	-ms-transition:0.4s linear;
 	-o-transition:0.4s linear;
-	transition:0.4s linear;
+	transition:10s linear;
 	-webkit-transition-property:width;
 }
 
@@ -448,7 +448,7 @@ border-radius: 50%;
 	position:absolute;
 	top:0;
 	left:0;
-width:110px;
+	width:110px;
 	font-weight:bold;
 	font-size:13px;
 	color:#ffffff;
